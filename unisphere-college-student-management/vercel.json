@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "routes": [
+    {
+      "src": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "utm_source",
+          "value": "chatgpt\\.com"
+        }
+      ],
+      "headers": {
+        "Location": "/"
+      },
+      "status": 307
+    }
+  ]
+}
