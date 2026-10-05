@@ -10,10 +10,7 @@
           "value": "chatgpt\\.com"
         }
       ],
-      "headers": {
-        "Location": "/"
-      },
-      "status": 307
+      "dest": "/clean-url.html"
     }
   ]
 }
